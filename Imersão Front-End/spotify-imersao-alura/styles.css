@@ -1,0 +1,61 @@
+/*IMERSÃO FRONT-END
+    ALURA
+    INSTRUTORES: Fernanda Degolin
+                 Mayara Cardoso
+                 Guilherme Lima
+    Programadora:Juliana Medeieros Silva
+*/
+
+body {
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px; 
+}
+
+/*estilização da barra lateral*/
+.sidebar_navigation {
+    background-color: #121212;
+
+    /*arredondamento das bordas, raio=8 pixels*/
+    border-radius: 8px;
+
+    /*espaçamento dos elementos*/
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation.logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+/*ajustando o tamanho da logo*/
+.logo img {
+    width: 80px;
+}
+
+/*estilizando a tag lista*/
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
