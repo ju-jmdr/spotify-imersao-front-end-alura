@@ -36,7 +36,12 @@
 
 </head>
 <body>
-    <!--tag div para adicionar estilo a barra lateral da página-->
+
+    <!--================================
+               PRIMEIRO BLOCO
+    ====================================-->
+        
+    <!--tag div para adicionar a barra lateral da página-->
     <div class="sidebar">
 
         <!--tag nav para navegar entra páginas-->
@@ -48,31 +53,99 @@
                 </a>
             </div>
 
-                <div>
-                    <!--Criando uma lista com os itens do menu da barra lateral da página-->
-                    <ul>
-                        <!--ícone de início-->
-                        <li>
-                            <a href="">
-                                <span class="fa fa-home"></span>
-                                <span>Início</span>
-                            </a>
-                        </li>
+                
+             <!--Criando uma lista com os itens do menu da barra lateral da página-->
+            <ul>
+               <!--ícone de início-->
+               <li>
+                   <a href="">
+                       <span class="fa fa-home"></span>
+                       <span>Início</span>
+                   </a>
+               </li>
 
-                        <!--ícone de buscar-->
-                        <li>
-                            <a href="">
-                                <span class="fa fa-search"></span>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                        
-                    </ul>
+               <!--ícone de buscar-->
+               <li>
+                   <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                   </a>
+               </li>                        
+            </ul> <!--Fim do bloco do menu da barra lateral-->                          
+        </nav>
+
+        <!--================================
+                    SEGUNDO BLOCO
+        ====================================-->
+
+        <!--===== SEÇÃO BIBLIOTECA =====-->
+        <!--Criando a seção de biblioteca da barra lateral-->
+        <div class="library">
+
+            <!--Adicionando os elementos da seção biblioteca-->
+            <div class="library__content">
+
+                <!--Botão da biblioteca-->
+                <button class="library__button">
+                    <!--tags span para adicionar o ícone da biblioteca e o nome "Biblioteca"-->
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
+
+                <!--Adicionando o botão de "+"-->
+                <span class="fa fa-plus"></span>
+
+            </div><!--Fim da classe library_content-->
+
+            <!--===== SEÇÃO PLAYLIST =====-->
+            <!--Seção de criar playlists-->
+            <section class="section-playlist">
+
+                <!--Adicionando os elementos da seção criar playlist-->
+                <div class="section-playlist__content">
+                    <!--Adicionando um texto e um título-->
+                    <span class="text title">
+                        Crie sua primeira playlist
+                    </span>
+
+                    <!--Adicionando um subtítulo-->
+                    <span class="text subtitle">
+                        É fácil, vamos te ajudar
+                    </span>
+
+                    <!--Adicionando botão de criar playlist-->
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
 
                 </div>
-            </div>
-        </nav>
-    </div>
+            </section><!--Fim da seção playlist-->
+
+            <!--===== SEÇÃO COOKIES =====-->
+            <!--Adicionando a seção de acessar os cookies da página-->
+            <div class="cookies">
+
+                <!--tag a para redirecionar a outra página-->
+                <a href="">Cookies</a>
+
+            </div><!--Fim da seção cookies-->
+
+            <!--===== SEÇÃO IDIOMA =====-->
+            <!--Adicioanndo a seção de idioma da página-->
+            <div class="languages">
+
+                <!--Adicionando um botão do idioma da página-->
+                <button class="language__button">
+                    <!--tags span para adicionar o ícone de idioma e o nome do idioma -->
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+
+            </div><!--Fim da seção idioma-->
+
+        </div> <!--Fim da classe library-->
+
+    </div>  <!--Fim da classe sidebar-->
 
 </body>
 </html>
