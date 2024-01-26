@@ -1,0 +1,27 @@
+/*IMERSÃO FRONT-END
+    ALURA
+    INSTRUTORES: Fernanda Degolin
+                 Mayara Cardoso
+                 Guilherme Lima
+    Programadora:Juliana Medeiros Silva
+*/
+
+/*RAIZ DO PROJETO
+  Será usadas para definir e buscar estilos de forma mais rápida*/
+
+:root{
+    /*======== Variável de fontes ========*/
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /*======== Variável de cores ========*/
+
+    /*cores dos ícones*/
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+    
+    /*cores barra de pesquisa*/
+    --bg-search-color: #242424;
+    --bg-input-text-color: #fff;
+    --bg-subscribe-text-color: #a7a7a7;
+    --bg-login-text-color: #000;
+}
